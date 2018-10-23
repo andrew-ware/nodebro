@@ -1,0 +1,27 @@
+{
+  "name": "nodebro",
+  "version": "1.0.0",
+  "description": "Run node commands directly from the command line. Call nodebro followed by a string of code to execute.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andrew-ware/nodebro"
+  },
+  "bin": {
+    "nodebro": "./index.js"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "keywords": [
+    "bash",
+    "shell",
+    "node",
+    "cli"
+  ],
+  "author": "Andrew Ware",
+  "license": "MIT",
+  "dependencies": {
+    "shelljs": "^0.8.2"
+  }
+}
